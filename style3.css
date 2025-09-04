@@ -1,0 +1,74 @@
+.child{
+    border: 6px solid black;
+    border-radius:2px;
+    Animation-name:a;
+    Animation-duration:2s;
+    Animation-iteration-count:infinite ;
+    Animation-timing-function: ease-in;
+
+    
+}
+body{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+
+}
+@keyframes a{
+    0%
+    {
+        transform:scaleY(1);
+    }
+    50%
+    {
+        transform:scaleY(20);
+    }
+    100%
+    {
+        transform:scaleY(2);
+    }
+    
+    
+
+}
+    
+.child1{
+    Animation-duration:3s;
+    Animation-delay:0s;
+ }
+.child2{
+    Animation-duration:3.5s;
+    Animation-delay:1s;
+ }
+.child3{
+    Animation-duration:2s;
+    Animation-delay:1.5s;
+ }
+.child4{
+    Animation-duration:3s;
+    Animation-delay:2s;
+ }
+.child5{
+    Animation-duration:3.5s;
+    Animation-delay:1s;
+ }
+.child6{
+    Animation-duration:3s;
+    Animation-delay:1.5s;
+ }
+.child7{
+    Animation-duration:3.5s;
+    Animation-delay:0s;
+ }
+.child8{
+    Animation-duration:3s;
+    Animation-delay:1s;
+
+ }
+.child9{
+    Animation-duration:3.5s;
+    Animation-delay:1.5s;
+    }
+
